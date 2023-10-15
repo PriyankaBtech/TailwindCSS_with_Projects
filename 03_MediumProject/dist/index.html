@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Medium level Project</title>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="h-screen flex">
+        <img class="hidden lg:block w-1/2" src="https://cdn.pixabay.com/photo/2017/11/06/18/30/eggplant-2924511_1280.png" alt="">        
+
+        <!-- login section -->
+        <div class="flex flex-col justify-center items-center border w-full lg:text-left bg-purple-100">
+            <div>
+
+                <div class="text-xl font-bold">
+                <span class="text-purple-800">&#9650</span>
+                <span>FarmMan</span>
+               </div>
+
+               <div class="mt-10 font-bold text-3xl lg:text-left">
+                <h2>Welcome,</h2>
+                <h2>to my Farm</h2>
+               </div>
+
+               <!-- login form -->
+               <form action="" class="mt-10 w-[80%] lg:w-96 mx-auto space-y-4">
+                <h4>Login to manage your account</h4>
+                <input type="email" class="border w-full px-4 py-2" placeholder="Email">
+                <input type="password" class="border w-full px-4 py-2" placeholder="Password">
+
+                <div class="text-blue-600 hover:text-blue-400 cursor-pointer">
+                    Forgot your password?
+                </div>
+
+                <button class="bg-purple-800 mt-2 py-2 w-full rounded text-white">
+                    Login
+                </button>
+
+                <div class="text-center space-y-4 mt-4">
+                    <span>or</span>
+                    <div class="flex gap-8 justify-center items-center">
+                        <span><i class="fa-brands fa-facebook"></i></span>
+                        <span><i class="fa-brands fa-google"></i></span>
+                        <span><i class="fa-brands fa-instagram"></i></span>
+                    </div>
+                </div>
+
+                <div class="mt-4 text-center text-sm">
+                    don't have account?
+                    <span class="text-blue-600 hover:text-blue-400 cursor-pointer">Sign Up here</span>
+                </div>
+               </form>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
