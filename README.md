@@ -2,6 +2,7 @@
 Tailwind CSS is a CSS framework that simplifies design by offering predefined styling components. It's a fast and simple way to make your website look good without being a CSS expert.
 
 
+
 ## TailwindCss with different levels projects
 
 ### Easy Project
@@ -9,9 +10,13 @@ Tailwind CSS is a CSS framework that simplifies design by offering predefined st
 Link : https://priyankatailwindeasy.netlify.app/
 
 
+
+
 ### Medium Project
 ![Screenshot (766)](https://github.com/PriyankaBtech/Advance_JavaScript/assets/109729930/5d4a6db5-8741-49d1-a87b-cd28971c5bb2)
 Link : https://priyankatailwindmedium.netlify.app/
+
+
 
 
 ### Advance Project
